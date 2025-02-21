@@ -1,0 +1,54 @@
+# .gitignore para MyWorkerApp
+
+# Diretórios e arquivos gerados pelo .NET
+bin/
+obj/
+
+# Configurações de usuário do Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependências e pacotes
+packages/
+*.nupkg
+project.lock.json
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.tlog
+*.cache
+
+# Configurações de ambiente
+.env
+appsettings.json
+appsettings.Development.json
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Backup e arquivos temporários
+*.bak
+*.tmp
+~$*
+
+# Arquivos do Rider/JetBrains
+.idea/
+*.iml
+
+# Arquivos de compilação
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.app
+
+# Configuração do Resharper
+_ReSharper*/
+*.DotSettings.user
+
