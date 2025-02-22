@@ -1,10 +1,5 @@
 namespace MyWorkerFactoryApp
 {
-    public interface IServiceFactory
-    {
-        IService CreateService(string serviceType);
-    }
-
     public class ServiceFactory : IServiceFactory
     {
         public IService CreateService(string serviceType) => serviceType switch
