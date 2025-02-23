@@ -1,4 +1,5 @@
-namespace MyWorkerFactoryApp;
+using MyWorkerFactoryApp.Services;
+namespace MyWorkerFactoryApp.Factories;
 
 public interface IServiceFactory
 {

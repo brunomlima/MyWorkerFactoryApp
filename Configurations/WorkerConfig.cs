@@ -20,11 +20,11 @@ namespace MyWorkerFactoryApp.Configurations
     public class HorarioConfig
     {
         public string Inicio { get; set; } = string.Empty;
-        public string Fim { get; set; }= string.Empty;
+        public string Fim { get; set; } = string.Empty;
 
-        public bool EstaDentroDoHorario()
+        public bool EstaDentroDoHorario(TimeSpan? horarioAtual = null)
         {
-            var agora = DateTime.Now.TimeOfDay;
+            var agora = horarioAtual ?? DateTime.Now.TimeOfDay; 
             return TimeSpan.TryParse(Inicio, out var inicio) &&
                    TimeSpan.TryParse(Fim, out var fim) &&
                    agora >= inicio && agora <= fim;

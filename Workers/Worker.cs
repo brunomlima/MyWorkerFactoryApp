@@ -7,9 +7,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MyWorkerFactoryApp.Configurations;
+using MyWorkerFactoryApp.Factories;
+using MyWorkerFactoryApp.Services;
 
 
-namespace MyWorkerFactoryApp
+namespace MyWorkerFactoryApp.Workers
 {
     public class Worker : BackgroundService
     {

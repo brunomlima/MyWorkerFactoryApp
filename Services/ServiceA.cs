@@ -1,4 +1,6 @@
-namespace MyWorkerFactoryApp
+using MyWorkerFactoryApp.Services;
+
+namespace MyWorkerFactoryApp.Services
 {
     public class ServiceA : IService
     {

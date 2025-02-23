@@ -5,6 +5,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 using MyWorkerFactoryApp.Configurations;
+using MyWorkerFactoryApp.Workers;
+using MyWorkerFactoryApp.Services;
+using MyWorkerFactoryApp.Factories;
 
 namespace MyWorkerFactoryApp
 {
